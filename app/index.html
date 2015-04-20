@@ -1,0 +1,165 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+
+  <!-- /BEGIN HEAD -->
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>{{.Title}}</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <link rel="stylesheet" href="styles/main.css">
+    <!-- build:js scripts/vendor/modernizr.js -->
+    <script src="bower_components/modernizr/modernizr.js"></script>
+    <!-- endbuild -->
+    
+  </head>
+
+  <!-- /END HEAD -->
+
+  <!-- /BEGIN BODY -->
+
+  <body>
+
+    <!-- /BEGIN WRAPPER -->
+
+    <div class="site-wrapper">
+      <div class="site-wrapper-inner">
+        <div class="cover-container">
+          <div class="inner cover">
+            <h2 class="js-disabled-warning">Please Enable JavaScript</h2>
+            <div class="special-headings">
+              <h1 class="cover-heading blue-text glow-text">Dreaming nCode</h1>
+              <h3 class="slogan-heading"></h3>
+            </div>
+            <p class="lead">
+              <a href="mailto:ryan@ryan-alex.com?Subject=Job%20Opportunity" class="btn btn-lg btn-default blue-text blue-btn">HIRE ME</a>
+            </p>
+          </div> 
+          <div class="row">
+            <div class="col-md-6">.col-md-6</div>
+            <div class="col-md-6">.col-md-6</div>
+          </div>   
+        </div>
+      </div>
+    </div>
+
+    <!-- /END WRAPPER -->
+
+    <!-- /BEGIN CONTAINER -->
+
+    <div class="container marketing">
+
+      <!-- /BEGIN FEATURETTES -->
+      
+      <div class="feat-divider"></div>
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="fly featurette-heading blue-text">GOLANG <span class="fly text-muted">on this SITE </span></h2>
+          <p class="fly  lead">
+            The Golang is really easy to pick up. With an hour of practice I was able to push this site out using the Go App Engine SDK! I created a template using an existing prototype and gruntfile. The title of this site is stored in a type Data struct { Title string }. There is probably a better way to pass data to a template, but this was the fast road since it's taken straight out of the <a href="https://cloud.google.com/appengine/docs/go/gettingstarted/introduction">tutorial</a>. Next I plan to write some callbacks and a singelton I can reuse throughout the app.</p>
+        </div>
+        <div class="col-md-5">
+          <img class="fly featurette-image img-responsive" src="images/code.png" href="images/code.png"  alt="Snippet of Golang code. By: Ryan Alexander">
+        </div>
+      </div>
+
+      <div class="feat-divider"></div>
+
+      <div class="row featurette">
+        <div class="col-md-5">
+          <img class="fly featurette-image img-responsive" src="images/tableCell.png" href="images/tableCell.png"  alt="Snippet of Obj-C code. By: Ryan Alexander">
+        </div>
+        <div class="col-md-7">
+          <h2 class="fly eaturette-heading blue-text">I love iOS!<span class="fly text-muted">Obj-C==FOOD</span></h2>
+          <p class="fly lead">I cloned <a href="http://www.raywenderlich.com/4680/how-to-make-an-interface-with-horizontal-tables-like-the-pulse-news-app-part-1">Ray Wenderlichs tutorial</a> about creating an interface similar to that of the AppStore. It was a bit outdated so I removed his calls to [obj release] and some other elements that are no longer needed with ARC. I then updated some of the styling code and adpated it to work with a Storyboard instead of Nibs. <a href="https://github.com/MrRyanAlexander/YSHorizontalTableViewExample">My final result</a> does practically the same thing as Rays, but instead of just scrolling right and left, my cells snap into place. Examine the smooth affect the snapping has, which can be adjusted and note how the cells act when the tableView has reached the last cell. The code does not snap when the last cell is "partially" showing, but when the last cell is "mostly" showing, it snaps.</p>
+        </div>
+      </div>
+
+      <div class="feat-divider"></div>
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="fly featurette-heading blue-text">Who is <span class="fly text-muted">Ryan Alexander?</span></h2>
+          <p class="fly lead">I'm an easy going person, but very deep minded and focused on the things I think matter the most. I care about the needs of others and look for ways to helpout wherever I can. I want to be part of connecting everyone and I learned programming to exploit my ideas about other ways we will connect. I work really well with other people and am known as the guy everyone can count on for help. I am never evil and carry no chips on my shoulders. If you have an opporunity you would like to talk to me about, email me at <a href="mailto:ryan@ryan-alex.com?Subject=Job%20Opportunity">ryan@ryan-alex.com</a></p>
+        </div>
+        <div class="col-md-5">
+          <img class="fly featurette-image img-responsive" src="images/ryan.jpg" href="images/ryan.jpg" alt="Ryans Selfie">
+        </div>
+      </div>
+
+      <div class="feat-divider"></div>
+
+      <!-- /END FEATURETTES -->
+
+
+      <!-- FOOTER -->
+      
+      <footer>
+        <p class="pull-right blue-text"><a href="#"class=" blue-text">Back to top</a></p>
+        <p class=" blue-text">&copy; 2015 Ryan-Alex.com &middot; <a href="ryan@ryan-alex.com?Subject=Job%20Opportunity" target="_top" class=" blue-text">Contact</a> &middot; <a href="http://github.com/mrryanalexander" class=" blue-text">Github</a></p>
+      </footer>
+      
+      <!-- /END FOOTER -->
+
+    </div>
+    <!-- /END CONTAINER -->
+
+    <!--[if lt IE 7]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    <!-- /BEGIN ANALYTICS -->
+
+    <script>
+      (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+      function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+      e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+      e.src='//www.google-analytics.com/analytics.js';
+      r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+      ga('create','UA-XXXXX-X');ga('send','pageview');
+    </script>
+
+    <!-- /END ANALYTICS -->
+        
+    <!-- /BEGIN BUILD.JS -->
+
+    <!-- build:js scripts/script.js -->
+
+    <script src="bower_components/jquery/jquery.min.js"></script>
+
+    <script src="bower_components/bootstrap/js/affix.js"></script>
+    <script src="bower_components/bootstrap/js/alert.js"></script>
+    <script src="bower_components/bootstrap/js/dropdown.js"></script>
+    <script src="bower_components/bootstrap/js/tooltip.js"></script>
+    <script src="bower_components/bootstrap/js/modal.js"></script>
+    <script src="bower_components/bootstrap/js/transition.js"></script>
+    <script src="bower_components/bootstrap/js/button.js"></script>
+    <script src="bower_components/bootstrap/js/popover.js"></script>
+    <script src="bower_components/bootstrap/js/carousel.js"></script>
+    <script src="bower_components/bootstrap/js/scrollspy.js"></script>
+    <script src="bower_components/bootstrap/js/collapse.js"></script>
+    <script src="bower_components/bootstrap/js/tab.js"></script>
+
+    <script src="bower_components/magnific-popup/dist/jquery.magnific-popup.js"></script>
+    <script src="scripts/ie-emulation-modes-warning.js"></script>
+    <script src="scripts/ie10-viewport-bug-workaround.js"></script>
+    <script src="scripts/jquery.inview.js"></script>
+    <script src="bower_components/countdown/countdown.js"></script>
+    <script src="scripts/main.js"></script>
+    
+    <!-- endbuild -->
+
+    <!-- /END BUILD.JS -->
+
+  </body>
+
+  <!-- /END BODY -->
+
+</html>

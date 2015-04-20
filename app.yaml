@@ -1,0 +1,28 @@
+application: automatic-bot-91805
+version: 6
+runtime: go
+api_version: go1
+
+handlers:
+- url: /images
+  static_dir: dist/images
+- url: /fonts
+  static_dir: dist/fonts
+- url: /scripts
+  static_dir: dist/scripts
+- url: /styles
+  static_dir: dist/styles
+- url: /.*
+  script: _go_app
+skip_files:
+- ^(.*/)?#.*#$
+- ^(.*/)?.*~$
+- ^(.*/)?.*\.py[co]$
+- ^(.*/)?.*/RCS/.*$
+- ^(.*/)?\..*$
+- ^.tmp$
+- ^app$
+- ^node_modules$
+- ^test$
+- ^(.*/)?.Gruntfile\.json
+- ^(.*/)?.*\.json

@@ -1,0 +1,16 @@
+#ignore dev files, tests
+/.tmp
+/node_modules
+/test
+
+#ignore app files 
+/app/bower_components
+/app/.htaccess
+/app/404.html
+/app/robots.txt
+
+#ignore dist files
+/dist/.htaccess
+/dist/404.html
+/dist/robots.txt
+
